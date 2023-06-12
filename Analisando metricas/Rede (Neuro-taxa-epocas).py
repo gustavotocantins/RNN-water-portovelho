@@ -47,22 +47,22 @@ def salvar_modelo(nome):
 
 #=============== CRIAÇÃO DO MODELO DA REDE ===============================
 
+dados = []
 # Define o conjunto de hiperparâmetros para teste
 neuronios_conj = [10, 20, 40, 60,100, 200, 500, 1000]
 
-
 # Loop para testar cada combinação de hiperparâmetros
+seed = 42
+tf.random.set_seed(seed)
+np.random.seed(seed)
 
 for neuronio in neuronios_conj:
     #Modelo da rede
-    seed = 42  # Substitua 42 pelo valor de seed que você deseja utilizar
-    tf.random.set_seed(seed)
     model = tf.keras.Sequential() 
     model.add(tf.keras.layers.Dense(neuronio,input_shape=(9,),
                 activation="sigmoid",
                 kernel_initializer='zeros'))
     model.add(tf.keras.layers.Dense(1,kernel_initializer='zeros'))
-
 
     # Compilador
     optim = tf.keras.optimizers.Adam(learning_rate=0.01)
@@ -80,12 +80,6 @@ for neuronio in neuronios_conj:
         ermse = np.sqrt(eqm)
         return ermse
 
+    dados.append([neuronio,calcular_rmse(saida_teste,teste1)])
     #Fazer predição para os dados de 10%
-    print("Quantidade de neuronios: ", neuronio)
-    print('RMSE de 10% dos dados: ',calcular_rmse(saida_teste,teste1))
-    print('RMSE de toda a serie: ',calcular_rmse(saida_des,teste2))
-
-    print()
-    #salvar_modelo(f"n{neuronio}-e{1000}-t{0.01}")
-
-input("FINALIZADO")
+    print('FINALIZADO')
