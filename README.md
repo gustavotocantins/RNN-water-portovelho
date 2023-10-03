@@ -1,7 +1,7 @@
 # Rede Neural Recorrente (RNN) para previsão do nível de água em Porto Velho
 
 
-<img src="https://github.com/gustavotocantins/CargoSecurity/blob/main/treino/Leve%20(145).png">
+<img src="https://media.licdn.com/dms/image/D4D2DAQEyJVf95uFP6w/profile-treasury-image-shrink_1920_1920/0/1696284439402?e=1696950000&v=beta&t=HZ3-zRlf-c-zexsEtL8Cs8zAhKi7SD3SYYAdF0KTbxw">
 
 ## 🚀 Introdução
 
@@ -17,7 +17,7 @@ A rede foi utilizada para obter previsões dos nível de água na estação alvo
 
 ### 🔩 Resultados
 
-<img src="https://github.com/gustavotocantins/CargoSecurity/blob/main/teste/Carregado%202.png">
+<img src="https://media.licdn.com/dms/image/D4D2DAQFIy3NGA2V5XA/profile-treasury-image-shrink_1920_1920/0/1696284418309?e=1696950000&v=beta&t=9GZ5VpOrWuKtN8UUOq_EQZOAIde2gqsFLVxS4cmhbTY">
 
 
 ## 🛠️ Construído com
@@ -28,8 +28,9 @@ Bibliotecas utilizadas
 * [Matplotlib](https://matplotlib.org) 
 * [numpy](https://numpy.org)
 
-
 ## ✒️ Autores
 
-* **GUSTAVO DO NASCIMENTO TOCANTINS** - [Gustavo Tocantins](https://www.linkedin.com/in/gustavotocantins/)
-* **LÚCIO CARLOS PINHEIRO CAMPOS FILHO** - [Arthur Lima](https://www.linkedin.com/in/arthur-lima-6999a0178/)
+* **Gustavo Tocantins** - [Gustavo Tocantins](https://www.linkedin.com/in/gustavotocantins/)
+* **Lúcio Campos Filho** - [Lúcio Campos Filho](https://www.linkedin.com/in/lucio-campos-filho)
+* **Nelio Figueiredo** - [Nelio Figueiredo](https://www.linkedin.com/in/nelio-figueiredo-8ab304168)
+* **Valcir da Cunha** - [Valcir da Cunha](https://www.linkedin.com/in/gustavotocantins/)
